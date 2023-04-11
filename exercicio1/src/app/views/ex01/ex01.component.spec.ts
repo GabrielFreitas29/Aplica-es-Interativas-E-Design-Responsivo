@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ExempforComponent } from './exempfor.component';
+import { Ex01Component } from './ex01.component';
 
-describe('ExempforComponent', () => {
-  let component: ExempforComponent;
-  let fixture: ComponentFixture<ExempforComponent>;
+describe('Ex01Component', () => {
+  let component: Ex01Component;
+  let fixture: ComponentFixture<Ex01Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ExempforComponent ]
+      declarations: [ Ex01Component ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ExempforComponent);
+    fixture = TestBed.createComponent(Ex01Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

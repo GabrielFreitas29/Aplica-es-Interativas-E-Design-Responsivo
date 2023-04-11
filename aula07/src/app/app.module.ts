@@ -1,19 +1,21 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ExemplongifComponent } from './views/exemplongif/exemplongif.component';
-import { Ex01Component } from './views/ex01/ex01.component';
-import { Ex02Component } from './views/ex02/ex02.component';
+import { NgIfComponent } from './views/ng-if/ng-if.component';
+import { FormsModule } from '@angular/forms';
+import { Ex05Component } from './views/ex05/ex05.component';
+import { ExempforComponent } from './views/exempfor/exempfor.component';
+import { FortesteComponent } from './views/forteste/forteste.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ExemplongifComponent,
-    Ex01Component,
-    Ex02Component
+    NgIfComponent,
+    Ex05Component,
+    ExempforComponent,
+    FortesteComponent
   ],
   imports: [
     BrowserModule,
